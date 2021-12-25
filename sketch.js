@@ -39,7 +39,7 @@ var colors = {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
   background(255);
   strokeWeight(2);
