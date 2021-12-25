@@ -55,7 +55,7 @@ function draw() {
 }
 
 function drawSpirograph(pixelsPerCircle, outerCircleSize, innerCircleSize, totalLoops) {
-    x = cos(i * 360 / pixelsPerCircle) * outerCircleSize + cos(i / totalLoops) * innerCircleSize + 200;
-    y = sin(i * 360 / pixelsPerCircle) * outerCircleSize + sin(i / totalLoops) * innerCircleSize + 200;
+    x = cos(i * 360 / pixelsPerCircle) * outerCircleSize + cos(i / totalLoops) * innerCircleSize + width / 2;
+    y = sin(i * 360 / pixelsPerCircle) * outerCircleSize + sin(i / totalLoops) * innerCircleSize + height / 2;
     point(x, y)
 }
