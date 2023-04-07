@@ -1,7 +1,110 @@
 html, body {
   margin: 0;
   padding: 0;
+  background: rgb(200, 250, 250);
+  color: rgb(100, 150, 250);
 }
 canvas {
   display: block;
+}
+
+/* Header / Nav menu */
+
+header nav ul {
+  display:flex;
+  flex-direction:row;
+  padding-bottom: 5px;
+  border-bottom: rgb(220, 220, 0) solid 2px;
+}
+
+header nav ul li {
+  margin-left: 5%;
+  margin-right: 5%;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  padding: 5px 5px 5px 5px;
+  border: rgb(220, 220, 0) solid 2px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+header nav ul li a:visited, header nav ul li a:link {
+  background: rgb(200, 250, 250);
+  color: rgb(100, 150, 250);
+}
+
+header nav ul li a:hover {
+  background: rgb(100, 150, 250);
+  color: rgb(200, 250, 250);
+}
+
+/* Headers */
+
+h1 {
+  font-size: 2em;
+  padding-left: 5%;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 5%;
+}
+
+/* Tables */
+
+table {
+  margin: 5%;
+  width: 90%;
+}
+
+tr {
+  margin: 5%;
+}
+
+td.title {
+  font-size: 1.5em;
+  text-align: right;
+  padding: 2%;
+}
+
+td.data {
+  font-size: 1em;
+  width: 80%;
+  padding: 1% 5%;
+}
+
+a, a:visited, a:link, a:hover {
+  text-decoration: none;
+  background: rgb(200, 250, 250);
+  color: rgb(100, 150, 250);
+}
+
+td.homeData {
+  font-size: 1.5em;
+  width: 40%;
+  padding: 1% 5%;
+}
+
+td.homeData a, td.homeData a:visited, tr.homeData a:link {
+  background: rgb(200, 250, 250);
+  color: rgb(100, 150, 250);
+  padding: 5%;
+  border: rgb(220, 220, 0) solid 2px;
+}
+
+td.homeData a:hover {
+  background: rgb(100, 150, 250);
+  color: rgb(200, 250, 250);
+  padding: 5%;
+  border: rgb(220, 220, 0) solid 2px;
+}
+
+p {
+  margin: 5%;
+}
+
+h2 a:hover, h2 a:link, h2 a, h2 a:visited, a#githubLink:hover, a#githubLink, a#githubLink:link, a#githubLink:visited {
+text-decoration: underline;
 }
